@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+.page{
+    font-family: "Lato";
+    color: #424551;   
+}
+[class*=__content]{    
+    max-width: 600px;
+    margin: 0 auto;
+}
+.block-about{
+    margin-bottom: 150px;   
+}
+.title-about{
+    color: #1E212C;   
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+.text-regular{       
+    line-height: 160%;
+    margin-bottom: 50px;
+}
+.title-cody,
+.title-you,
+.list-title{
+    color: #1E212C;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+.list{
+    line-height: 160%;    
+}
+.list li{
+    background: url("../img/icon/check.svg") 0 4px/15px 15px no-repeat;
+    padding-left: 30px;
+    margin-bottom: 4px;    
+}
+.list li:nth-child(odd){
+    color: #0099ff;
+}
+.list li:nth-child(even){
+    color: #cc00ff;   
+}
+.list li:first-child{
+    color: #FF3F3A;
+}
+.list li:last-child{
+    color: #88ff00;
+}
+.list li:last-child{
+    margin-bottom: 0px;
+}
+.list li:hover{
+    background: url("../img/icon/check.svg") 0 3px/20px 20px no-repeat;
+    font-size: 17px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 32px;
+    margin-bottom: 4px;    
+}
+.block-cody{    
+    margin-bottom: 150px; 
+}
+.subtitle{ 
+    color: #1E212C;   
+    margin-bottom: 8px;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.grey-color{
+    color: #787A80;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+.list-statistics{
+    font-weight: 700;
+    line-height: 160%; 
+    margin-bottom: 32px;
+}
+.list-statistics li:nth-child(1){
+    background: url("../img/icon/star.svg") 0 4px/15px 15px no-repeat;
+    padding-left: 30px;
+    margin-bottom: 4px;    
+}
+.list-statistics li:nth-child(2){
+    background: url("../img/icon/play.svg") 0 4px/15px 15px no-repeat;
+    padding-left: 30px;
+    margin-bottom: 4px;    
+}
+.list-statistics li:nth-child(3){
+    background: url("../img/icon/person.svg") 0 4px/15px 15px no-repeat;
+    padding-left: 30px;
+    margin-bottom: 0px; 
+}
+.list-statistics li:nth-child(1):hover{
+    background: url("../img/icon/star.svg") 0 2px/20px 20px no-repeat;
+    font-size: 17px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 32px;
+    margin-bottom: 4px;    
+}
+.list-statistics li:nth-child(2):hover{
+    background: url("../img/icon/play.svg") 0 2px/20px 20px no-repeat;
+    font-size: 17px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 32px;
+    margin-bottom: 4px;    
+}
+.list-statistics li:nth-child(3):hover{
+    background: url("../img/icon/person.svg") 0 2px/20px 20px no-repeat;
+    font-size: 17px;    
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 32px;
+    margin-bottom: 4px;    
+}
+.socials a{
+    margin-right: 20px;
+}
+.facebook :hover path{
+    fill: #FF3F3A;  
+}
+.behance :hover path{
+    fill: #FF3F3A;  
+}
+.twitter :hover path{
+    fill: #FF3F3A;  
+}
+.linked :hover path{
+    fill: #FF3F3A;      
+}
+.block-sidebar,
+.visited-link,
+.focus,
+.target,
+.list-block{
+    padding: 40px 32px;
+    background-color: #ffffff;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    margin-bottom: 75px;
+}
+.sidebar-one,
+.sidebar-two{
+    margin-bottom: 32px;
+}
+.sidebar-three{
+    margin-bottom: 40px;
+}
+.sidebar-title{
+    color: #1E212C;
+    text-transform: uppercase;    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+.sidebar-subtitle,
+.visited-subtitle,
+.focus-subtitle,
+.target-subtitle{
+    color: #FF3F3A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+.sidebar-text{
+    color: #787A80;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+.button a{        
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    color:#ffffff;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 16px;     
+}
+.button a:hover{  
+    outline: 1px solid #FF3F3A;      
+    background: #ffffff; 
+    color:#FF3F3A;
+}
+.button a:active{
+    outline: 1px solid #E5E8ED;
+    color: #424551;
+}
+.visited{
+    line-height: 150%;
+}
+.visited a{
+    color: rgb(0, 153, 255);
+    text-decoration: underline;
+    margin-left: 2px;
+}
+.visited a:visited{
+    color: rgb(174, 74, 255);
+}
+input{  
+    min-width: 390px;
+    padding: 14px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+input:last-child{     
+    margin-bottom: 0px;
+}
+::placeholder{    
+    color: rgb(212, 212, 212);
+    font-size: 16px;    
+}
+:focus{
+    outline: none;
+}
+input:focus{ 
+    color: #424551;
+    border: 1px solid rgba(255, 63, 58, 0.4);
+    box-shadow: 0px 80px 80px -20px rgba(255, 63, 58, 0.08), 0px 30px 24px -10px rgba(255, 63, 58, 0.05), 0px 12px 10px -6px rgba(255, 63, 58, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+}
+.targer-list{
+    line-height: 150%;
+}
+
+.targer-list p:target{    
+    background-color: #ffb9b6;    
+}
+.targer-list p:target::before{
+    content: ">";
+    margin-right: 10px;   
+}
+.targer-list ol{     
+	counter-reset: num;  
+}
+.targer-list li::before{
+    content: counter(num) "."; 
+	counter-increment: num; 
+    padding-right: 5px;
+}
+.list2{
+    counter-reset: num;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.list2 > li::before{
+    content: "+ Theme " counter(num) "."; 
+	counter-increment: num; 
+    color: #FF3F3A;
+    padding-right: 5px;
+}
+.list2 > li:hover::before{
+    content: "- Theme " counter(num) "."; 
+	counter-increment: num; 
+    color: #FF3F3A;
+    padding-right: 5px;
+}
+.list2-inside{
+    display: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    padding: 5px 0 5px 30px;    
+}
+ul li:hover ul{
+	display: block;
+}
+.game{
+    width: 600px;
+    height: 510px;    
+    background-color: #ffffff;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    margin-bottom: 150px;
+}
+.game-start{
+    border-radius: 4px 0 0 0;
+    font-weight: 700;
+    color: rgb(255, 255, 255);  
+    display: inline-block;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    padding: 15px 20px;
+    text-align: center;    
+}
+.game-start:hover + div{
+    visibility: visible;
+}
+.game-one{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-left: 26px;
+    width: 20px;
+    height: 50px;
+    visibility: hidden;
+}
+.game-one:hover,
+.game-one:hover + div{
+    visibility: visible;
+}
+.game-two{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-left: 26px;
+    width: 150px;
+    height: 20px;
+    visibility: hidden;
+}
+.game-two:hover,
+.game-two:hover + div{
+    visibility: visible;
+}
+.game-three{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-left: 156px;
+    width: 20px;
+    height: 150px;
+    visibility: hidden;
+}
+.game-three:hover,
+.game-three:hover + div{
+    visibility: visible;
+}
+.game-four{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-left: 156px;
+    width: 200px;
+    height: 10px;
+    visibility: hidden;
+}
+.game-four:hover,
+.game-four:hover + div{
+    visibility: visible;
+}
+.game-five{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-left: 351px;
+    width: 5px;
+    height: 200px;
+    visibility: hidden;
+}
+.game-five:hover,
+.game-five:hover + div{
+    visibility: visible;
+}
+.game-six{
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-left: 351px;
+    width: 248px;
+    height: 2px;
+    visibility: hidden;
+}
+.game-six:hover,
+.game-six:hover ~ div{
+    visibility: visible;
+}
+.end { 
+    border-radius: 0 0 4px 0;   
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);  
+    color: rgb(255, 255, 255); 
+    font-weight: 700; 
+    margin-left: 499px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    visibility: hidden;
+}
+.end:hover{
+    visibility: visible;
+}
